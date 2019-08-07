@@ -9,5 +9,6 @@ This repository contains the data and R script required to run the analysis and 
 1) Download repository to working directory
 2) Download field-measurement dataset to working directory
 3) Download amended USGS NHD dataset to working directory
-4) Open R script 'Brinkerhoff_etal_AMHG' and set working directory variable to your directory
-5) run script
+4) Download calibrated grain-size dataset to working directory
+5) Open R script 'Brinkerhoff_etal_AMHG' and set working directory variable to your directory
+6) run script
