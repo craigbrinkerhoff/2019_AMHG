@@ -7,6 +7,7 @@ This repository contains the data and R script required to run the analysis and 
 <b><h3>Run:</h3></b>
 <br>
 1) Download repository to working directory
-2) Download dataset to working directory
-3) Open R script 'Brinkerhoff_etal_AMHG' and set working directory variable to your directory
-4) run script
+2) Download field-measurement dataset to working directory
+3) Download amended USGS NHD dataset to working directory
+4) Open R script 'Brinkerhoff_etal_AMHG' and set working directory variable to your directory
+5) run script
