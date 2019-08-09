@@ -6,7 +6,7 @@
 
 
 #set your working directory to your current working directory, and then run the script
-setwd("C:\\Users\\craig\\Box Sync\\Ongoing Projects\\hydraulic_geometry_project\\working\\final\\")
+setwd("C:\\Users\\cbrinkerhoff\\Box Sync\\Ongoing Projects\\hydraulic_geometry_project\\working\\final\\")
 
 
 #if a package is installed, it will be loaded
@@ -583,7 +583,7 @@ fig4 <-ggplot(lmPlot, aes(modelFit, recoveryFit, color = Hydraulic))  +
   geom_label_repel(label=lmPlot$Model, show.legend = FALSE) +
   theme(legend.title = element_blank())
 fig4
-ggsave("fig4.jpg", width = 7, height = 7, dpi=400)
+ggsave("fig4.pdf", width = 7, height = 7)
 
 #for figure S2---------------------------------------------------------------------
 all_rivers$congruentdepthTestDEPTH <- exp(all_rivers$logdc)^(all_rivers$delta/all_rivers$r)*exp(all_rivers$logQc_d)^(-1)
@@ -615,4 +615,4 @@ plotGW15 <- plot_grid(gridGW15)
 
 
 grid.arrange(plotGW15)
-save_plot("fig1.jpg", plotGW15, ncol=2, base_height = 7, base_width = 5)
+save_plot("fig1.pdf", plotGW15, ncol=2, base_height = 7, base_width = 5)
