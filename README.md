@@ -2,7 +2,7 @@
 
 <b><h3>Description</h3></b>
 <br>
-This repository contains the data and R script required to run the analysis and produces the figures in _____________________.
+This repository contains the data and R script required to run the analysis and produces the figures in https://doi.org/10.1029/2019GL084529.
 <br><br>
 <b><h3>Run:</h3></b>
 <br>
