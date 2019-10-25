@@ -10,3 +10,7 @@ This repository contains the data and R script required to run the analysis and 
 2) Download associated datasets (http://bit.ly/2TDuRE9) to working directory
 3) Open R script 'Brinkerhoff_etal_AMHG' and set working directory variable to your directory
 4) Run script
+<br><br>
+<b><h3>Contact</h3></b>
+<br>
+If you have any questions, feel free to contact me at cbrinkerhoff@umass.edu
